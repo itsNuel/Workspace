@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+
+<body>
+    <header>
+        <h1>HTML Froms</h1>
+    </header>
+    <section>
+        <form action="index.html" method="GET/POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placholder="Enter
+            your name" required/> <br/>
+            <label>Choose one of the following</label><br/>
+            Yes <input type="radio" name="radio"/>
+            No <input type="radio" name="radio"/>
+            <fieldset>
+                <legend>Choose courses</legend>
+                English<input type="checkbox" id="english"/><br/>
+                Maths<input type="checkbox" id="maths">
+            </fieldset>
+            <fieldset>
+                <legend>Give your feedback</legend>
+                <textarea cols="20" rows="10" id="feedback"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Select city</legend>
+                <select>
+
+                    <option value="Calgary">Calgary</option>
+                    <option value="Toronto">Calgary</option>
+                     <option value="Edmonton">Calgary</option>
+                </select>
+            </fieldset>
+
+                <fieldset>
+                <legend>Select what you like</legend>
+                <select>
+                    <optgroup label="Fuits">
+                        <option>Apple</option>
+                        <option>Banana</option>
+                    </optgroup>
+
+                    <optgroup label="Cities">
+                    <option value="Calgary">Calgary</option>
+                    <option value="Toronto">Calgary</option>
+                     <option value="Edmonton">Calgary</option>
+                     </optgroup>
+                </select>
+                <datalist id="Item">
+                    <input type="text" id="item" list="items"
+                    placeholder="Enter your choice"/>
+                        <option>Item 1</option>
+                        <option>Item 2</option>
+                </datalist>
+            </fieldset>
+
+            </fieldset>
+            <input type="submit" id="submit" onclick="" value="submit"/>
+             <button type="button" id="btn" onclick="">Send</button>
+            Select date <input type="date"/>
+            Enter your age <input type="number">
+
+
+        </form>
+    </section>
+    <footer>
+
+
+    </footer>
+</body>
+</html>>
